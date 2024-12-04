@@ -42,9 +42,6 @@ def calculate_entropy(probabilities):
         entropy -= p * math.log2(p)
     return entropy
 
-def calculate_conditional_entropy():
-    return 
-
 def main():
     ab = get_multiplication_and_sum_probabilities()
     entropy_ab = calculate_entropy(ab)
